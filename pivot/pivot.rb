@@ -14,7 +14,7 @@ class Pivot
       left == right 
     end  
 
-    index.nil? ? -1 : index 
+    index || -1 
   end
 
   # I was thinking about using the method below. I ended up going with the one above

@@ -28,7 +28,7 @@ describe Pivot, "#index" do
     expect(pivot.index).to eq(2)
   end
 
-  it "has an index at 70" do
+  it "has an index at 51" do
     array = [0]*100
     2.times { |n| array.insert(80+n, 30) }
     array.insert(50, 60)
